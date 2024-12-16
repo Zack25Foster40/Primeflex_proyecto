@@ -1,0 +1,25 @@
+<header class="header">
+  <h1>Lista de los Trabajos Realizados</h1>
+</header>
+<button class="click-2" style="position: absolute;" routerLink="">
+  <i class="pi pi-warehouse" style="position: center;"></i>
+</button>
+<br><br><br><br>
+<div class="grid grid-nogutter p-4 gap-0">
+  <div *ngFor="let card of cards" class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-3 p-3">
+    <p-card [style]="{ width: '100%', overflow: 'hidden' }">
+      <ng-template pTemplate="header">
+        <img alt="Card" class="w-full" [src]="card.image" />
+      </ng-template>
+      <ng-template pTemplate="title"> {{ card.title }} </ng-template>
+      <ng-template pTemplate="subtitle"> {{ card.subtitle }} </ng-template>
+      <p>{{ card.description }}</p>
+      <ng-template pTemplate="footer">
+        <div class="flex gap-2 mt-1">
+          <p-button label="Cancelar" severity="secondary" [outlined]="true" class="w-full" routerLink="/"></p-button>
+          <p-button label="Guardar" class="w-full"></p-button>
+        </div>
+      </ng-template>
+    </p-card>
+  </div>
+</div>
