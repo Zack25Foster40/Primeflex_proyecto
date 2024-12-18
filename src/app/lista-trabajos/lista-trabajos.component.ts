@@ -10,38 +10,45 @@ export class ListaTrabajosComponent {
     {
       title: 'Entregable',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+1',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
       description: 'Cuadros responsivos con las matrices 3x3, 4x4, 5x5 y  6x6.',
+      route: '/entregable'
     },
     {
       title: 'Entregable 1',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+2',
-      description: 'Descriy desafiante.',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
+      description: 'Cuadros responsivos que se ajustan a la pantalla de la forma que se solicito.',
+      route: '/entregable-1'
     },
     {
       title: 'Entregable 2',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+3',
-      description: 'Descripción del trabajo 3. Esto demuestra creatividad y calidad.',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
+      description: '12 cards responsivos donde se adaptan al cambio de pantalla.',
+      route: '/entregable-2'
     },
     {
       title: 'Iconos',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+4',
-      description: 'Descripción del trabajo 4. Un enfoque único y profesional.',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
+      description: 'Muestra todos los iconos disponibles de la pagina oficial de PrimeNG.',
+      route: '/iconos'
     },
     {
       title: 'Carrusel de Imagenes',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+5',
-      description: 'Descripción del trabajo 5. Combina innovación y experiencia.',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
+      description: 'Se visualiza dos carruseles en donde se muestra imagenes de articulos tecnologicos.',
+      route: '/carrusel-imagenes'
     },
     {
       title: 'Galeria de Imagenes',
       subtitle: 'PrimeNG y PrimeFlex',
-      image: 'https://via.placeholder.com/300x200?text=Imagen+6',
-      description: 'Descripción del trabajo 6. Excelente en todos los aspectos.',
+      image: 'https://i.pinimg.com/736x/ad/cd/cd/adcdcd5a8e967a7e945b841853374176.jpg',
+      description: 'Se logra visualizar un pequeño apartado donde se muestra una galeria de imagenes.',
+      route: '/galeria-de-imagenes'
     }
   ];
+  
 }

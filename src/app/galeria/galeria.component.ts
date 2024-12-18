@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class GaleriaComponent {
   images: { itemImageSrc: string; thumbnailImageSrc: string; alt: string; title: string }[] = [];
   responsiveOptions: any[] = [];
+  value: string = '';
 
   constructor() {
     this.images = [

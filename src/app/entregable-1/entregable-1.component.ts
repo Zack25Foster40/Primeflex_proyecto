@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './entregable-1.component.scss'
 })
 export class Entregable1Component {
+  value: string = '';
 
 }
